@@ -1,0 +1,75 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Game Ksatria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+    <div class ='header' >
+        <h1><center>Selamat Datang di Dunia Perang Masa Kini</center> </h1>
+    </div>
+    <div class = 'main' >
+        <h2><center>Masukan Nama Kamu</center></h2>
+        <center><input type="text" name="name" id="name"></center>
+        <h2><center>Silahkan Pilih Karakter Yang Kamu Sukai</center></h2>
+        <table  align = center >
+            <tr>
+                <td><img src="img/romawi.png" class="romawi"></td>
+                <td><img src="img/teuton.png" class="teuton"></td>
+                <td><img src="img/galia.png" class="galia"></td>
+            </tr>
+            <tr>
+                <td>
+                <center><h3>Bangsa Romawi</h3>
+                        Pasukan Bangsa Romawi Merupakan<br>
+                        Pasukan Yang Imbang Dalam <br>
+                        Bertahan Dan Menyerang 
+                </center>
+                </td>
+                <td>
+                <center><h3>Bangsa Teuton</h3>
+                        Pasukan Bangsa Teuton Merupakan<br>
+                        Pasukan Yang Hebat dalam Menyerang<br>
+                        Namun Lemah Dalam Bertahan
+
+                </center>
+                </td>
+                <td>
+                <center><h3>Bangsa Galia</h3>
+                        Pasukan Bangsa Galia Merupakan<br>
+                        Pasukan yang Hebat Dalam Bertahan<br>
+                        Namun Lemah Dalam Menyerang
+                </center>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="popupbox" class="popup">
+        <div class="popup-content">
+            <div class="popup-kiri">
+                <img id="imgpopup" src="">
+            </div>
+            <div class="popup-kanan">
+                <div class="popup-kanan-atas">
+                    <span id="close">X</span>
+                    <h2></h2>
+                    <h3>Bersiaplah Untuk Memimpin Pasukan</h3>
+                </div>
+                <div class="popup-kanan-bawah">
+                    <h2></h2>
+                    <p id="deskripsi"></p>
+                    <h3>Jenis Infantri</h3>
+                    <!-- <p id="troop"></p> -->
+                    <ul id="troops">
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
